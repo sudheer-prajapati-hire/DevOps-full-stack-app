@@ -190,8 +190,10 @@ curl http://localhost:3000/health
 docker history myapp-backend:v1
 docker scout cves myapp-backend:v1
 ```
+<img width="1172" height="437" alt="Screenshot" src="https://github.com/user-attachments/assets/8a845fbc-4e38-477a-b82b-ebb74839bab3" />
 
 ---
+<img width="1452" height="402" alt="Screenshot1" src="https://github.com/user-attachments/assets/d2cf1919-c97a-4f28-bd6b-3cbe1c2f578f" />
 
 ## 💡 Key Learnings
 
