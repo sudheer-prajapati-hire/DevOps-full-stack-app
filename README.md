@@ -1,6 +1,6 @@
-# 🚀 DevOps Full-Stack App (Docker + MySQL + AWS ECR)
+#  DevOps Full-Stack App (Docker + AWS ECR)
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates how to containerize a Node.js backend using **multi-stage Docker builds**, orchestrate services with **Docker Compose**, and push images to **AWS ECR**.
 
@@ -8,7 +8,7 @@ It follows production-level DevOps practices including security, optimization, a
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
                 Internet
@@ -36,7 +36,7 @@ It follows production-level DevOps practices including security, optimization, a
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
 * Multi-stage Docker build (optimized image)
 * Non-root user inside container (security best practice)
@@ -47,7 +47,7 @@ It follows production-level DevOps practices including security, optimization, a
 
 ---
 
-## 🐳 Docker Optimization
+##  Docker Optimization
 
 | Feature           | Benefit                              |
 | ----------------- | ------------------------------------ |
@@ -56,24 +56,9 @@ It follows production-level DevOps practices including security, optimization, a
 | .dockerignore     | Faster builds                        |
 | Non-root user     | Improved security                    |
 
----
 
-## 📂 Project Structure
 
-```
-devops-full-stack-app/
-├── backend/
-│   ├── index.js
-│   ├── package.json
-│   ├── Dockerfile
-│   └── .dockerignore
-├── docker-compose.yml
-└── README.md
-```
-
----
-
-## ⚙️ Run Locally (Without Docker)
+## Run Locally (Without Docker)
 
 ```bash
 cd backend
@@ -89,7 +74,7 @@ curl http://localhost:3000/health
 
 ---
 
-## 🐳 Run with Docker
+## Run with Docker
 
 ### Build Image
 
@@ -111,7 +96,7 @@ curl http://localhost:3000/health
 
 ---
 
-## 🧩 Run with Docker Compose (Recommended)
+##  Run with Docker Compose (Recommended)
 
 ```bash
 docker-compose up -d
@@ -137,7 +122,7 @@ docker-compose down
 
 ---
 
-## ☁️ Push to AWS ECR
+##  Push to AWS ECR
 
 ### 1. Create Repository
 
@@ -166,7 +151,7 @@ docker push <account-id>.dkr.ecr.ap-south-1.amazonaws.com/myapp-backend:v1
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 * Container runs as non-root user
 * Sensitive files excluded via `.dockerignore`
@@ -175,7 +160,7 @@ docker push <account-id>.dkr.ecr.ap-south-1.amazonaws.com/myapp-backend:v1
 
 ---
 
-## 🧪 Testing Endpoints
+##  Testing Endpoints
 
 ```bash
 curl http://localhost:3000
@@ -184,7 +169,7 @@ curl http://localhost:3000/health
 
 ---
 
-## 📊 Image Analysis
+## Image Analysis
 
 ```bash
 docker history myapp-backend:v1
@@ -195,7 +180,7 @@ docker scout cves myapp-backend:v1
 ---
 <img width="1452" height="402" alt="Screenshot1" src="https://github.com/user-attachments/assets/d2cf1919-c97a-4f28-bd6b-3cbe1c2f578f" />
 
-## 💡 Key Learnings
+## Key Learnings
 
 * Docker multi-stage builds
 * Container security practices
@@ -205,16 +190,9 @@ docker scout cves myapp-backend:v1
 
 ---
 
-## 🚀 Future Enhancements
 
-* Add frontend (React)
-* Deploy on Kubernetes (EKS)
-* Add CI/CD pipeline (GitHub Actions)
-* Add Nginx reverse proxy
 
----
-
-## 👨‍💻 Author
+## Author
 
 Sudheer
-DevOps & Cloud Enthusiast 🚀
+DevOps Engineer 
